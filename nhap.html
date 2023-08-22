@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // for white, do white
+      "use strict";
+      //   kiem  tra tat cac cu  phap  ben trong  dong code phai tuan  thu  cu phap cua js
+      let a = +prompt(" Nhập số a");
+      let b = +prompt(" Nhập số b");
+      let c = +prompt(" Nhập số c");
+      console.log(max);
+      max = 0;
+      min = 0;
+
+      if (a > b) {
+        max = a;
+        min = b;
+      } else {
+        max = b;
+        min = a;
+      }
+      //   vd max = a, min = b
+      //
+      if (c > max) {
+        max = c;
+      } else if (c < min) {
+        min = c;
+      }
+
+      alert("max là " + max);
+      alert("min là " + min);
+    </script>
+  </body>
+</html>
